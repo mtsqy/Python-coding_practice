@@ -14,10 +14,10 @@ def starLoop(a):
         print()
 
 def selectPrograms(userInput):
-    if userInput==1:
+    if userInput == 1:
         a = int(input("Please enter amount of stars to loop : "))
         starLoop(a)
-    elif userInput==2:
+    elif userInput == 2:
         n = int(input("Please enter Fibonacci number : "))
         fibs(n)
     else:
